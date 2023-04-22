@@ -1,0 +1,15 @@
+print("====CASTING====")
+a_int = 8
+print("nilai a : ", a_int, "type:", type(a_int))
+
+a_float    =  float(a_int)
+a_str       = str(a_int)
+a_bool    = bool(a_int)
+print("a_float: ", a_float , "type: ", type(a_float))
+print("a_str: ", a_str , "type: ", type(a_str))
+print("a_bool: ", a_bool, "type: ", type(a_bool))
+print("====INPUT USER====")
+data = input("Masukkan data: ")
+print("data:", data, "type: ", type(data)) 
+data_int = int(data)
+print("data:", data_int, "type: ", type(data_int)) 
