@@ -1,8 +1,6 @@
 import time
 from tqdm import tqdm
 
-
-angel = ("Aditya Chandra")
 print("Loading".center(70))
 progress_bar = tqdm(total=100)
 for i in range(100):
@@ -27,15 +25,7 @@ time.sleep(2)
 hello = f" Hello {name} ".center(50,"=")
 print(hello)
 
-if name == angel:
-	     print("\n" + ansr1)
-else:
-        print("\n" + ansr2)
-        print(line)
-        print(f" Thank You, {name}!!! ".center(50,"="))
-        print(line)
-        exit()
-
+print("\n" + ansr1)
 input(f"\n {icon} How are you? ")
 
 question1 = input(f"\n {icon} Do you ready for the question? (yes/no): ")
